@@ -1,0 +1,51 @@
+
+.asking {
+margin-left: 50%;
+margin-right: 50%;
+margin-top: -420px;
+position: absolute;
+
+
+}
+.input {
+    border: none;
+        border-radius: 50px;
+        background-color:rgb(249, 187, 89) ;
+        width:300px;
+        padding: 10px ;    
+       
+    }
+.input:hover{
+      background-color: rgb(207, 155, 71);
+        cursor:text;
+    }
+ .input1 {
+        border: none;
+            border-radius: 50px;
+            background-color:rgb(249, 187, 89) ;
+            width:250px;
+            padding: 40px ;    
+           
+        }
+ .input1:hover{
+          background-color: rgb(207, 155, 71);
+            cursor:text;
+        }
+
+        .button{ 
+            background-color: rgb(249, 187, 89) ;
+            font-size: 14px;
+             color:white ;
+              font-family: sans-serif;
+              padding: 15px 40px;
+              border: none;
+              border-radius: 50px;
+              transition: all 0.5s;
+              position: absolute;
+              top: 300px;
+              margin-left:40%;
+            }
+            .button:hover {
+              background-color: rgb(174, 130, 59);
+              cursor: pointer;
+            }
