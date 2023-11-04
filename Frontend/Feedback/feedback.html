@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="feedback.css">
+    <link rel="stylesheet" type="text/css" href="NavBar.css" />
+	<link rel="icon" type="image/x-icon" href="/Logo.png">
+	<link rel="stylesheet" href="scrollbar.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Feedback</title>
+
+</head>
+<body>
+    <div class="navbar">
+		<ul class="navbarul">
+			<li class ="logo"><a class="navbar-brand" href="/index.html" style="font-weight: bolder; font-size: x-large; left: 10%;position: relative;"><span style="color: #fff;">TEAM</span><span style="color: #C69749;">MEGZ</span></a>
+			</li>
+			<li class ="x"><a href="/index.html">Home</a></li>
+			<li class ="x"><a href="/transformation-page/transformation.html">Transformations</a></li>
+			<li class ="x"><a href="/follow up(1)/tendayscheck.html">Follow up</a></li>
+			<li class ="x"><a href="/profile-page/profilepage.html">Profile</a></li>
+
+			<li class="login"><a href="/login-page/login.html">Login</a></li>
+		</ul>
+	</div>	
+    
+    
+    <div class="heading">
+        <h1>  Feedback  </h1>
+    </div>
+    <div class="fb-type">
+        <h2>  Choose what the feedback is on:  </h2>
+    </div>
+
+    <div class="option">
+        <select id="sup." required>
+            <option value="">Class</option>
+            <option value="Coach">Coach</option>
+            <option value="Branch">Branch</option>
+        </select>
+    </div>
+
+    <div class="comment">
+        <h2>  Please enter your comment  </h2>
+    </div>
+
+    <div class="comment-field">
+        <form action="submit_feedback.php" method="post">
+            <textarea id="feedback" name="feedback" rows="10" cols="100"></textarea><br>
+        
+            <input class="submit" type="submit" value="Submit Feedback">
+        </form>
+
+    </div>
+    
+
+</body>
+</html>

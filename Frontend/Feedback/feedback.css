@@ -1,0 +1,88 @@
+body {
+   
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: #282A3A;
+}
+
+.heading{
+    position:relative;
+    margin-top: 20px;
+    left:40%;
+    width: 300px;
+    margin: 0%;
+    text-align: center;
+    margin-bottom:0px ;
+    top: 100px;
+
+    color: #fff;
+}
+
+.fb-type{
+    position:relative;
+    margin-top: 20px;
+    left:3%;
+    width: 400px;
+    margin: 0%;
+    text-align: left;
+    margin-bottom:0px ;
+    top: 150px;
+
+    color: #fff;
+
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"],select {
+	position: relative;
+    width:100px;
+	padding: 10px;
+	margin: top 5px;
+    border:0px;
+    left: 450px;
+    background-color: #C69749;
+    top:95px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.comment{
+    position:relative;
+    margin-top: 20px;
+    left:3%;
+    width: 400px;
+    margin: 0%;
+    text-align: left;
+    margin-bottom:0px ;
+    top: 150px;
+
+    color: #fff;
+
+}
+
+.comment-field{
+
+    position:relative;
+    margin-top: 20px;
+    left:25%;
+    width: 400px;
+    height: 500px;
+    margin: 0%;
+    margin-bottom:0px ;
+    top: 150px;
+    color: #C69749;
+}
+
+.submit{
+    position: relative;
+    background-color: #C69749;
+    color: #fff; 
+    border-radius: 12px; 
+    height: 50px;
+    left: 80%;
+    top: 50px;
+}
+
+.submit:hover{
+    background-color: #735F32;
+}
