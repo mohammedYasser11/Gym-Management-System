@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 120vh;
+    background-image: url(../images/201877763-gym-or-fitness-with-sunset-light-background-for-web-design-template-website\ \(1\).jpg);
+    background-size: cover;
+}
+
+.layout {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+h2 {
+    color: #C69749;
+    text-align: center;
+    font-size: 55px;
+    
+}
+
+.aa {
+
+    padding-top: 30px;
+}
+.branch {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.abc {
+
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #C69749;
+}
+
+.abc:hover {
+
+    color: #604d2d;
+}
+
+.branch span {
+
+    color: bisque;
+   
+}
+
+.branch i {
+
+    color: bisque;
+}
