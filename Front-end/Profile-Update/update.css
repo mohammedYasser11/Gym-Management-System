@@ -1,0 +1,103 @@
+body {
+   
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: #282A3A;
+    
+}
+.header{
+    position: relative;
+    color: #fff;
+    top: 140px;
+    left: 20%;
+    width: 200px;
+    
+}
+.text{
+    position: relative;
+    color: #fff;
+    top: 200px;
+    left: 20%;
+    margin-right: 0%;
+    width: 250px;
+}
+
+.textfield{
+    top: 140px;
+    left: 28%;
+    font-size: 1.0rem;
+    position: relative;
+    --primary: #2196f3;
+    margin-right: 0%;
+}
+
+.input{
+    all:unset;
+    color: #fefefe;
+    padding: 1rem;
+    border: 1px solid #9e9e9e;
+    border-radius: 10px;
+    transition: 150ms
+     cubic-bezier(0.4,0,0.2,1);
+    background-color: #C69749;
+    margin-right: 0%;
+}
+
+/* .label{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #d4d4d4;
+    pointer-events: none;
+    transition: 150ms
+        cubic-bezier(0.4,0,0.2,1);
+} */
+
+.input:focus{
+    border: 1px solid
+     var(--primary);
+}
+
+.input:is(:focus, :valid) ~ label{
+    transform: 
+        translateY(-120)
+        scale(0.7);
+    background-color: #1a1a1a;
+    padding-inline: 0.3rem;
+    color: var(--primary);
+}
+
+.option{
+    width: 0px;
+}
+.dob{
+    width: 0px;
+}
+select {
+	position: relative;
+    width:100px;
+	padding: 10px;
+	margin: top 5px;
+    border:0px;
+    left: 450px;
+    background-color: #C69749;
+    top:150px;
+    color: #fff;
+    border-radius: 12px;
+    margin-right: 0%;
+}
+
+input[type="date"] {
+    position: relative;
+    top: 150px;
+    left: 450px;
+    border-radius: 12px;
+
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 0%;
+  }
