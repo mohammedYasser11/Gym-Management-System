@@ -11,7 +11,7 @@ ul {
 .x {
   float: left;
   position: relative;
-  left: 32%;
+  left: 15%;
   font-weight: 400;
 }
 
@@ -122,4 +122,21 @@ body{
   border-radius: 50%;
   color: #C69749;
 }
+.footer .contact{
+  position: relative;
+  float: right;
+  right: 400px;
+  top: -120px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #C69749;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  background-color: #000;
+  color: #C69749;
+}
+
 /*END*/

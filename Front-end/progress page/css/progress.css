@@ -9,12 +9,11 @@
 }
 .text-box{
     position: relative;
+    top: 100px;
     background-color: #C69749;
     border-radius: 38.5px;
     width: 135px;
     height: 35px;
-    /* right: 450px; */
-    
     border: 0px;
     
 }
@@ -22,7 +21,8 @@
     position: relative;
     text-align: right;
     color: #fff;
-    right: 100px;
+    right: 50px;
+    top: -50px;
 }
 .second{
     position: relative;

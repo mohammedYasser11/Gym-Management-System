@@ -6,6 +6,17 @@
     
 }
 
+.button{
+  text-decoration: none;
+  color: white;
+  background-color: #C69749;
+  border-radius: 12px;
+  padding: 10px;
+}
+.column a:hover {
+  background-color: #000;
+  color: #C69749;
+}
 
 .input0{
     display: none;
